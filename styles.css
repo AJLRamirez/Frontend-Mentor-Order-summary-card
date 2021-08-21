@@ -1,0 +1,164 @@
+body,
+html {
+    height: 100%;  
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.bg {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53%;
+}
+
+/* card */
+
+p {
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.card {
+    border-radius: 20px;
+    min-width: 30%;
+    box-shadow: 0 30px 40px -30px hsl(224, 23%, 55%);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.width {
+    width: 90%;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+
+/* title */
+
+h5 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.card-title {
+    margin-bottom: 1.1rem;
+}
+
+.pad {
+    padding-top: 2.5rem;
+    padding-bottom: 4px;
+}
+
+/* plan */
+
+a {
+    color: hsl(245, 75%, 52%);
+    float: right;
+    font-size: .9rem;
+    font-weight: 900;
+    padding-top: 3.5%;   
+}
+
+a:hover {
+    color: hsl(245, 75%, 52%);
+    opacity: 50%;
+    text-decoration: none;
+}
+
+#plan {
+    font-size: 1.05rem;
+}
+
+.plan-bg {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.plan-txt {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.music-icon {
+    float: left;
+    padding-right: 1rem;
+}
+
+.txt-vert {
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+/* buttons */
+
+.btn-space {
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 16px 0;
+}
+
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(223, 47%, 23%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px -15px hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.btn-primary:hover{
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+    opacity: 50%;
+}
+
+.btn-primary:focus {
+    border-width: 0;
+    outline: none;
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%, 0.5);
+    box-shadow: 0 0 0 0.25rem hsl(245, 75%, 52%, 0.5);
+}
+
+.btn-light {
+    background-color: white;
+    border: 0;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    margin-bottom: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn-light:hover {
+    background-color: white;
+}
+
+.btn-light:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1202px) {
+    .card {
+        min-width: 359.5px;
+    }
+}
